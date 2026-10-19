@@ -28,6 +28,8 @@ revprobe run \
 
 The included fresh fixture produces `{"pass": 2, "fail": 0, "inconclusive": 0}`. Try `examples/answers-stale.json` to see a failing run. Exit codes: `0` all probes pass, `1` at least one failed or is inconclusive, `2` invalid input or no checkable changes. Pass `--allow-inconclusive` to let unresolved probes return `0` if none failed.
 
+If package installation is unavailable, run from the checkout: on PowerShell set `$env:PYTHONPATH='src'` and replace `revprobe` with `python -m revprobe.cli`; on Bash use `PYTHONPATH=src python -m revprobe.cli`.
+
 ## Connect a live assistant
 
 ```bash
