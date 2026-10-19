@@ -1,5 +1,7 @@
 # RevProbe
 
+English | [简体中文](README.zh-CN.md)
+
 **Turn document changes into regression tests for AI knowledge assistants.**
 
 When a policy or help article changes from “30 days” to “14 days”, a RAG assistant can keep citing the old version. RevProbe compares two document snapshots, builds targeted questions around changed facts, calls your assistant (or reads recorded answers), and emits a CI-friendly report with source hashes and reasons for each result.
