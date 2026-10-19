@@ -1,0 +1,10 @@
+{
+  "038422a0215f": {
+    "answer": "Customers can request a refund within 14 days of purchase.",
+    "source_sha256": "27b6c8e66db6efc739c09466c92a10c5dbbe6803d0c81095f33f46f473a4645e"
+  },
+  "318ba5389dfb": {
+    "answer": "Closed support tickets are retained for 60 days.",
+    "source_sha256": "27b6c8e66db6efc739c09466c92a10c5dbbe6803d0c81095f33f46f473a4645e"
+  }
+}

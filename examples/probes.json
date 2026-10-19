@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "source": "support-policy",
+  "old_sha256": "a7e6d5db0fd83702b5b128c57c9ac7b6f7e91dd850ba2c3fab12d1ea7b9750da",
+  "new_sha256": "27b6c8e66db6efc739c09466c92a10c5dbbe6803d0c81095f33f46f473a4645e",
+  "cases": [
+    {
+      "id": "038422a0215f",
+      "section": "Refund window",
+      "question": "According to support-policy, what is the current rule in the 'Refund window' section?",
+      "old_anchor": "30",
+      "new_anchor": "14",
+      "old_text": "Customers can request a refund within 30 days of purchase.",
+      "new_text": "Customers can request a refund within 14 days of purchase."
+    },
+    {
+      "id": "318ba5389dfb",
+      "section": "Data retention",
+      "question": "According to support-policy, what is the current rule in the 'Data retention' section?",
+      "old_anchor": "90",
+      "new_anchor": "60",
+      "old_text": "Closed support tickets are retained for 90 days.",
+      "new_text": "Closed support tickets are retained for 60 days."
+    }
+  ]
+}
